@@ -121,14 +121,14 @@ public class CityPersistence {
 
             // create a reader
             URL resource = getClass().getClassLoader().getResource("cities.json");
-            if(Objects.isNull(resource)) {
+            if (Objects.isNull(resource)) {
                 throw new CrehanaException(PersistenceConstants.FILE_NOT_EXISTS);
             }
 
-            Reader reader = Files.newBufferedReader(Paths.get(resource.getPath()));
+            Reader reader = Files.newBufferedReader(Paths.get(resource.toURI()));
 
             // create a converter
-            Type cityListType = new TypeToken<List<CityDTO>>(){}.getType();
+            Type cityListType = new TypeToken<List<CityDTO>>() {}.getType();
 
             // convert JSON string to User object
             cities = gson.fromJson(reader, cityListType);
