@@ -18,6 +18,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+import java.nio.charset.StandardCharsets;
 
 public class CityPersistence {
 
@@ -80,8 +81,7 @@ public class CityPersistence {
     }
 
     private void saveFile(List<CityDTO> cities) {
-
-        if(Objects.isNull(cities)) {
+        if (Objects.isNull(cities)) {
             throw new CrehanaException(PersistenceConstants.LIST_OF_CITIES_IS_NULL);
         }
 
@@ -91,16 +91,16 @@ public class CityPersistence {
 
             // create a writer
             URL resource = getClass().getClassLoader().getResource("cities.json");
-            if(Objects.isNull(resource)) {
+            if (Objects.isNull(resource)) {
                 throw new CrehanaException(PersistenceConstants.FILE_NOT_EXISTS);
             }
 
-            Writer writer = Files.newBufferedWriter(Paths.get(resource.getPath()), StandardOpenOption.TRUNCATE_EXISTING);
+            Writer writer = Files.newBufferedWriter(Paths.get(resource.toURI()), StandardCharsets.UTF_8, StandardOpenOption.TRUNCATE_EXISTING);
 
             // create a converter
-            Type cityListType = new TypeToken<List<CityDTO>>(){}.getType();
+            Type cityListType = new TypeToken<List<CityDTO>>() {}.getType();
 
-            // convert JSON string to User object
+            // convert city list to JSON string
             String jsonToSave = gson.toJson(cities, cityListType);
 
             writer.write(jsonToSave);
@@ -113,8 +113,8 @@ public class CityPersistence {
     }
 
 
-    private List<CityDTO> readFile() {
-        List<CityDTO> cities = null;
+    public List<CityDTO> readFile() {
+        List<CityDTO> cities;
         try {
             // create Gson instance
             Gson gson = new Gson();
