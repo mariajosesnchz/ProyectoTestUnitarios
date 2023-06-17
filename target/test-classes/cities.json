@@ -1,0 +1,22 @@
+[
+  {
+    "code": "BUE",
+    "name": "Buenos Aires"
+  },
+  {
+    "code": "SCL",
+    "name": "Santiago de Chile"
+  },
+  {
+    "code": "MVD",
+    "name": "Montevideo"
+  },
+  {
+    "code": "BOG",
+    "name": "Bogotá"
+  },
+  {
+    "code": "MEX",
+    "name": "Ciudad de México"
+  }
+]

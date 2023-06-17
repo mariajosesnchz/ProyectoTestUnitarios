@@ -42,7 +42,7 @@ public class MenuController {
         } while (MenuOption.EXIT != option);
     }
 
-    private void createMenu() {
+    public void createMenu() {
         System.out.println(ControllerConstants.MENU_TITLE);
 
         for (MenuOption menuOption : MenuOption.values()) {
@@ -52,7 +52,7 @@ public class MenuController {
         System.out.print(ControllerConstants.MENU_CHOOSE_OPTION);
     }
 
-    private String formatOption(MenuOption option) {
+    public String formatOption(MenuOption option) {
         return String.format("%s - %s", option.getCode(), option.getText());
     }
 
