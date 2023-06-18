@@ -1,0 +1,4 @@
+com.crehana.catalog.controller.MenuController#formatOption(Lcom/crehana/catalog/enums/MenuOption;)Ljava/lang/String;
+com.crehana.catalog.enums.MenuOption#getCode()Ljava/lang/Integer;
+com.crehana.catalog.enums.MenuOption#getText()Ljava/lang/String;
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

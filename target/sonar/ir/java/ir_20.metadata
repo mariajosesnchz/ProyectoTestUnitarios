@@ -1,0 +1,3 @@
+com.crehana.catalog.enums.MenuOption#findByCode(Ljava/lang/Integer;)Lcom/crehana/catalog/enums/MenuOption;
+com.crehana.catalog.enums.MenuOption#getCode()Ljava/lang/Integer;
+java.lang.Integer#equals(Ljava/lang/Object;)Z

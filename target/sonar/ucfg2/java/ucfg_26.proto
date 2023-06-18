@@ -1,0 +1,50 @@
+
+[test.operation.ControllerTest#createScannerWithInput(Ljava/lang/String;)Ljava/util/Scanner;l
+bC:/Users/Maria Jose/Desktop/ProyectoTestUnitarios/src/main/java/test/operation/ControllerTest.java- -(*"1*§
+1.; .(@~|
+.; .(K
+%0byte[]"java.lang.String#getBytes()[B*7
+
+__unknown_file (
+
+inputjava.lang.String2
+getBytes()NL
+.& .(:"
+%1java.io.ByteArrayInputStream"java.io.ByteArrayInputStream«
+¨
+." .(L
+%2"(java.io.ByteArrayInputStream#<init>([B)V*@
+
+__unknown_file ($
+"
+%1java.io.ByteArrayInputStream**
+
+__unknown_file (
+
+%0byte[]x
+v
+. .(M"
+inputStreamjava.io.InputStream"__id*@
+
+__unknown_file ($
+"
+%1java.io.ByteArrayInputStream86
+/ /(
+%3java.util.Scanner"java.util.Scanner¾
+»
+/ /('
+%4"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*5
+
+__unknown_file (
+
+%3java.util.Scanner*@
+
+__unknown_file ($
+"
+inputStreamjava.io.InputStream"%
+/ /((
+
+%3java.util.Scanner:%
+-+ -(7
+inputjava.lang.StringB!
+test.operation.ControllerTest

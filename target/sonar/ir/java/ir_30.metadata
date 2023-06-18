@@ -1,0 +1,2 @@
+test.operation.ControllerTest#setup()V
+org.mockito.MockitoAnnotations#openMocks(Ljava/lang/Object;)Ljava/lang/AutoCloseable;

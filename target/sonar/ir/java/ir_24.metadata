@@ -1,0 +1,7 @@
+test.operation.PersistenceTest#testCreateCity()V
+org.testng.Assert#assertEquals(Ljava/lang/String;Ljava/lang/String;)V
+com.crehana.catalog.persistence.CityPersistence#<init>()V
+com.crehana.catalog.persistence.CityPersistence#instance-init#
+org.testng.Assert#assertEquals(II)V
+com.crehana.catalog.dto.CityDTO#<init>()V
+com.crehana.catalog.dto.CityDTO#instance-init#

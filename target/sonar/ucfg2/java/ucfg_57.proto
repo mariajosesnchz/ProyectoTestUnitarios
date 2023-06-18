@@ -1,0 +1,21 @@
+
+@com.crehana.catalog.service.CityService#getAll()Ljava/util/List;v
+lC:/Users/Maria Jose/Desktop/ProyectoTestUnitarios/src/main/java/com/crehana/catalog/service/CityService.java+ +("1*§
+1, ,(¤
+¡
+, ,(5
+%0/com.crehana.catalog.persistence.CityPersistence"__id*X
+
+__unknown_file (<*:)
+'com.crehana.catalog.service.CityService"
+persistenceÌÉ
+, ,("
+%1java.util.List"Hcom.crehana.catalog.persistence.CityPersistence#getAll()Ljava/util/List;*S
+
+__unknown_file (7
+5
+%0/com.crehana.catalog.persistence.CityPersistence2getAll()""
+, ,(#
+
+%1java.util.ListB+)
+'com.crehana.catalog.service.CityServiceH

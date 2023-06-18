@@ -1,0 +1,9 @@
+com.crehana.catalog.persistence.CityPersistence#create(Lcom/crehana/catalog/dto/CityDTO;)V
+java.util.Objects#isNull(Ljava/lang/Object;)Z
+com.crehana.catalog.exception.CrehanaException#<init>(Ljava/lang/String;)V
+com.crehana.catalog.persistence.CityPersistence#existCity(Ljava/lang/String;Ljava/util/List;)Ljava/util/Optional;
+java.util.Optional#isPresent()Z
+com.crehana.catalog.exception.CrehanaException#instance-init#
+com.crehana.catalog.persistence.CityPersistence#saveFile(Ljava/util/List;)V
+==
+readFile com.crehana.catalog.persistence.CityPersistence#readFile()Ljava/util/List;

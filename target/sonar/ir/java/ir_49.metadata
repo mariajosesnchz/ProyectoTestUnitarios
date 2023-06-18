@@ -1,0 +1,3 @@
+com.crehana.catalog.persistence.CityPersistence#getAll()Ljava/util/List;
+==
+readFile com.crehana.catalog.persistence.CityPersistence#readFile()Ljava/util/List;

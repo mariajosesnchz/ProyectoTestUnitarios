@@ -1,0 +1,3 @@
+com.crehana.catalog.controller.MenuController#createMenu()V
+==
+formatOption com.crehana.catalog.controller.MenuController#formatOption(Lcom/crehana/catalog/enums/MenuOption;)Ljava/lang/String;

@@ -1,0 +1,10 @@
+test.operation.ControllerTest#testCreateMenu()V
+java.io.PrintStream#instance-init#
+java.io.PrintStream#<init>(Ljava/io/OutputStream;)V
+org.junit.jupiter.api.Assertions#assertEquals(Ljava/lang/Object;Ljava/lang/Object;)V
+com.crehana.catalog.controller.MenuController#instance-init#
+java.io.ByteArrayOutputStream#<init>()V
+java.lang.System#setOut(Ljava/io/PrintStream;)V
+java.io.ByteArrayOutputStream#instance-init#
+java.lang.String#trim()Ljava/lang/String;
+com.crehana.catalog.controller.MenuController#<init>(Lcom/crehana/catalog/validator/MenuOptionValidator;Lcom/crehana/catalog/controller/CityController;Ljava/util/Scanner;)V

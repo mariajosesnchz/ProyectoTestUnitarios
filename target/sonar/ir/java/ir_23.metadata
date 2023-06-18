@@ -1,0 +1,4 @@
+test.operation.PersistenceTest#givenNonExistentFile_whenReadFile_thenThrowsCrehanaException()V
+com.crehana.catalog.persistence.CityPersistence#<init>()V
+com.crehana.catalog.persistence.CityPersistence#instance-init#
+org.junit.jupiter.api.Assertions#assertThrows(Ljava/lang/Class;Lorg/junit/jupiter/api/function/Executable;Ljava/lang/String;)Ljava/lang/Throwable;

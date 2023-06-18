@@ -1,0 +1,4 @@
+com.crehana.catalog.exception.CrehanaExceptionTest#testCrehanaExceptionMessagePropagation()V
+com.crehana.catalog.exception.CrehanaException#<init>(Ljava/lang/String;)V
+org.testng.Assert#assertEquals(Ljava/lang/String;Ljava/lang/String;)V
+com.crehana.catalog.exception.CrehanaException#instance-init#

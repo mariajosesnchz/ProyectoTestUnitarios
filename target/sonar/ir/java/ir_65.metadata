@@ -1,0 +1,3 @@
+com.crehana.catalog.validator.CityValidator#isValid(Lcom/crehana/catalog/dto/CityDTO;)Z
+java.lang.String#length()I
+org.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z

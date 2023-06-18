@@ -1,0 +1,4 @@
+test.operation.MenuOptionValidatorTest#testIsValid_NullOption_ReturnsFalse()V
+com.crehana.catalog.validator.MenuOptionValidator#<init>()V
+com.crehana.catalog.validator.MenuOptionValidator#instance-init#
+org.junit.jupiter.api.Assertions#assertFalse(Z)V

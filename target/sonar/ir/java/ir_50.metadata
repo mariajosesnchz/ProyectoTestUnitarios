@@ -1,0 +1,2 @@
+com.crehana.catalog.persistence.CityPersistence#existCity(Ljava/lang/String;)Ljava/util/Optional;
+com.crehana.catalog.persistence.CityPersistence#existCity(Ljava/lang/String;Ljava/util/List;)Ljava/util/Optional;

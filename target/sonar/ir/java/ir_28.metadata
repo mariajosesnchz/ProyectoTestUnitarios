@@ -1,0 +1,6 @@
+test.operation.ControllerTest#createScannerWithInput(Ljava/lang/String;)Ljava/util/Scanner;
+java.util.Scanner#instance-init#
+java.io.ByteArrayInputStream#instance-init#
+java.io.ByteArrayInputStream#<init>([B)V
+java.util.Scanner#<init>(Ljava/io/InputStream;)V
+java.lang.String#getBytes()[B

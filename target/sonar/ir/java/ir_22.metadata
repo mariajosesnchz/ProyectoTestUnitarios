@@ -1,0 +1,5 @@
+test.operation.PersistenceTest#givenValidFile_whenReadFile_thenReturnsListOfCityDTO()V
+org.testng.Assert#assertNotNull(Ljava/lang/Object;)V
+com.crehana.catalog.persistence.CityPersistence#<init>()V
+com.crehana.catalog.persistence.CityPersistence#instance-init#
+org.testng.Assert#assertFalse(Z)V

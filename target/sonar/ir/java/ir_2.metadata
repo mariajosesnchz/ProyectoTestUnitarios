@@ -1,0 +1,4 @@
+com.crehana.catalog.controller.CityController#obtainCityInformation()Lcom/crehana/catalog/dto/CityDTO;
+com.crehana.catalog.dto.CityDTO#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.util.Scanner#next()Ljava/lang/String;
+com.crehana.catalog.dto.CityDTO#instance-init#
