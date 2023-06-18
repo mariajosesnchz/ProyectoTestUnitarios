@@ -141,4 +141,20 @@ public class CityPersistence {
 
         return cities;
     }
+
+    public void delete(CityDTO city) {
+        if (Objects.isNull(city)) {
+            throw new CrehanaException(PersistenceConstants.CITY_IS_NULL);
+        }
+
+        List<CityDTO> cities = readFile();
+        final Optional<CityDTO> existingCity = existCity(city.getCode(), cities);
+
+        if (existingCity.isPresent()) {
+            cities.remove(existingCity.get());
+            saveFile(cities);
+        } else {
+            throw new CrehanaException(PersistenceConstants.CITY_NOT_EXIST);
+        }
+    }
 }
